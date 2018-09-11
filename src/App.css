@@ -1,1 +1,13 @@
+.big-image {
+    max-width: 100%;
+    display: block;
+    max-height: 100%;
+    
+}
 
+.big-image-div {
+    height: auto;
+    max-height: 1000px;
+    width: 100%;
+    overflow: hidden;
+}
