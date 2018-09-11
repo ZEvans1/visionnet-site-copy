@@ -7,7 +7,7 @@ class NavBar extends Component {
     render() {
         return (
             <div>
-                <Navbar className="top-nav-bar" collapseOnSelect>
+                <Navbar className="top-nav-bar" collapseOnSelect fixedTop>
                     <Navbar.Header>
                         <Navbar.Brand>
                         {/* width={600} height={358} */}
