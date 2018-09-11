@@ -11,4 +11,6 @@ I used the following:
 
 To run:
 * Clone this repo
-* In your directory for the repo run: `npm start`
+* In your directory for the repo run in a terminal window: 
+`$ npm install`
+`$ npm start`
