@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import NavBar from './Components/NavBar/NavBar';
-
+import CompanyInfo from './Components/CompanyInfo/CompanyInfo';
 import { Image } from 'react-bootstrap';
 import './App.css';
 
@@ -15,7 +15,7 @@ class App extends Component {
           <p className="image-slogan">Your Vision. <strong>Our Network.</strong></p>
           <Image className="big-image" alt="nature" src="http://gregmolyneuxphotography.com/wp-content/uploads/2017/10/midas-on-the-marsh.jpg"/>
         </div>
-
+        <CompanyInfo/>
       </div>
     );
   }
